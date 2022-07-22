@@ -1,0 +1,34 @@
+
+li ,a{
+    list-style: none;
+    text-decoration: none;
+}
+.container{
+    width: 1320px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: auto;
+}
+.header{
+    margin-top: 44px;
+    margin-bottom: 45px;
+}
+.header .container{
+    display: flex;
+    justify-content: space-between;
+}
+.nav{
+    margin-top: -10px;
+}
+.nav__list{
+    display: flex;
+}
+.nav__item{
+    margin: 0 33px;
+}
+
+
+.nav__link:hover {
+    color: rgb(211, 0, 0);
+    text-decoration: underline;
+}
